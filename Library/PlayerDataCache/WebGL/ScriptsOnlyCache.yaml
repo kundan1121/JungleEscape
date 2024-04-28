@@ -9,6 +9,7 @@ ScriptsOnlyBuild:
     - ForwardJumpController
     - Inventory_UI
     - JumpController
+    - LowPolyWater.LowPolyWater
     - MyCharacterController
     - PlayerInventory
     - RatController
@@ -30,10 +31,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -117,51 +116,53 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1564}
+      Script: {instanceID: 1580}
     - Class: 114
-      Script: {instanceID: 1606}
+      Script: {instanceID: 1622}
     - Class: 114
-      Script: {instanceID: 1620}
+      Script: {instanceID: 1636}
     - Class: 114
-      Script: {instanceID: 2198}
+      Script: {instanceID: 2214}
     - Class: 114
-      Script: {instanceID: 2416}
+      Script: {instanceID: 2432}
     - Class: 114
-      Script: {instanceID: 2620}
+      Script: {instanceID: 2636}
     - Class: 114
-      Script: {instanceID: 2824}
+      Script: {instanceID: 2840}
     - Class: 114
-      Script: {instanceID: 2854}
+      Script: {instanceID: 2870}
     - Class: 114
-      Script: {instanceID: 2942}
+      Script: {instanceID: 2958}
     - Class: 114
-      Script: {instanceID: 3566}
+      Script: {instanceID: 3308}
     - Class: 114
-      Script: {instanceID: 3946}
+      Script: {instanceID: 3584}
     - Class: 114
-      Script: {instanceID: 4114}
+      Script: {instanceID: 3964}
     - Class: 114
-      Script: {instanceID: 4214}
+      Script: {instanceID: 4132}
     - Class: 114
-      Script: {instanceID: 4358}
+      Script: {instanceID: 4232}
     - Class: 114
-      Script: {instanceID: 4370}
+      Script: {instanceID: 4376}
     - Class: 114
-      Script: {instanceID: 4876}
+      Script: {instanceID: 4388}
     - Class: 114
-      Script: {instanceID: 5068}
+      Script: {instanceID: 4894}
     - Class: 114
-      Script: {instanceID: 5100}
+      Script: {instanceID: 5086}
     - Class: 114
-      Script: {instanceID: 5786}
+      Script: {instanceID: 5118}
     - Class: 114
-      Script: {instanceID: 6106}
+      Script: {instanceID: 5808}
     - Class: 114
-      Script: {instanceID: 6968}
+      Script: {instanceID: 6128}
     - Class: 114
-      Script: {instanceID: 7534}
+      Script: {instanceID: 6990}
     - Class: 114
-      Script: {instanceID: 7776}
+      Script: {instanceID: 7556}
+    - Class: 114
+      Script: {instanceID: 7798}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -473,6 +474,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 7351dccfb4c2048f67fbc88987bcb9e6
+    assemblyName: Assembly-CSharp
+    namespaceName: LowPolyWater
+    className: LowPolyWater
   - hash:
       serializedVersion: 2
       Hash: c6369b4cc3be620d6c9300e920bc3d52
@@ -1142,4 +1149,4 @@ ScriptsOnlyBuild:
   platform: 20
   scenePathNames:
   - Assets/Scenes/Game.unity
-  playerPath: /Users/prasiddha/Unity/Computer Game Design/Game
+  playerPath: /Users/prasiddha/Unity/Computer Game Design/Game 2

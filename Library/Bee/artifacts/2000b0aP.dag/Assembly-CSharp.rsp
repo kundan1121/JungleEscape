@@ -304,6 +304,7 @@
 "Assets/Kid_Scripts/Jumping_Kid.cs"
 "Assets/Kid_Scripts/Moving_Kid.cs"
 "Assets/Kid_Scripts/Player_Inventory.cs"
+"Assets/LowPolyWater_Pack/Scripts/LowPolyWater.cs"
 "Assets/Quirky Series Ultimate/_Scripts/QuirkySeriesDemo.cs"
 "Assets/Quirky Series Ultimate/_Scripts/RotateOnScroll.cs"
 -langversion:9.0

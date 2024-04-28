@@ -91,6 +91,12 @@ extern void RotateOnScroll_Update_mE46306C0A627A240A57F576907537CE452AB7E28 (voi
 extern void RotateOnScroll__ctor_mAC7C1AD78086BD0DDEDF115BBBC008C544CF3B47 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
+extern void LowPolyWater_Awake_m9CEA90E96A89A759F393E3A137B7FA4B089799B9 (void);
+extern void LowPolyWater_Start_m84959C8452D29891A954FDA641CBC810F575F860 (void);
+extern void LowPolyWater_CreateMeshLowPoly_mD334974E007EE6B8204B866ED70BF3D8B99F735C (void);
+extern void LowPolyWater_Update_mA0B0C1966279CC287BEB91A684AC4DF1D8B8EF54 (void);
+extern void LowPolyWater_GenerateWaves_m272208F2F0BD170DFCD36057697CE2777EF66972 (void);
+extern void LowPolyWater__ctor_m6275136A91915331F9D7D023A66AE845B2D55611 (void);
 extern void AnimationDemo_Update_mA445BB743156E99BEAA11699E65E2A13EF029836 (void);
 extern void AnimationDemo_NextAnimation_m776D26825E68D396CC422DBBF93D324D2C32E532 (void);
 extern void AnimationDemo_PreviousAnimation_mBBC03BE9A22B75E03A03F47A9D5E5DFB4B63E708 (void);
@@ -99,7 +105,7 @@ extern void AnimationDemo_ResetAllBool_m93D4CB5475DE208FDEC7FD6A78480FB81921280C
 extern void AnimationDemo_PlayAnimation_m024CB135C01DCDE60EEBF515ECC931FE0F6678FE (void);
 extern void AnimationDemo__ctor_mD2740D09B9B011AE5B51F505F7D3FC5782B2272C (void);
 extern void AnimationEntry__ctor_m90069274C1557D02C5922A0A14DF0EC5CC3C2FF4 (void);
-static Il2CppMethodPointer s_methodPointers[87] = 
+static Il2CppMethodPointer s_methodPointers[93] = 
 {
 	ColobusController_Start_mD3326DC8F3ABAD43A608CF4BBD38604CE9B334F8,
 	ColobusController_Update_m65EE456C8C6FF7F325866B5A15B2A9FD043AB904,
@@ -180,6 +186,12 @@ static Il2CppMethodPointer s_methodPointers[87] =
 	RotateOnScroll__ctor_mAC7C1AD78086BD0DDEDF115BBBC008C544CF3B47,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
+	LowPolyWater_Awake_m9CEA90E96A89A759F393E3A137B7FA4B089799B9,
+	LowPolyWater_Start_m84959C8452D29891A954FDA641CBC810F575F860,
+	LowPolyWater_CreateMeshLowPoly_mD334974E007EE6B8204B866ED70BF3D8B99F735C,
+	LowPolyWater_Update_mA0B0C1966279CC287BEB91A684AC4DF1D8B8EF54,
+	LowPolyWater_GenerateWaves_m272208F2F0BD170DFCD36057697CE2777EF66972,
+	LowPolyWater__ctor_m6275136A91915331F9D7D023A66AE845B2D55611,
 	AnimationDemo_Update_mA445BB743156E99BEAA11699E65E2A13EF029836,
 	AnimationDemo_NextAnimation_m776D26825E68D396CC422DBBF93D324D2C32E532,
 	AnimationDemo_PreviousAnimation_mBBC03BE9A22B75E03A03F47A9D5E5DFB4B63E708,
@@ -189,7 +201,7 @@ static Il2CppMethodPointer s_methodPointers[87] =
 	AnimationDemo__ctor_mD2740D09B9B011AE5B51F505F7D3FC5782B2272C,
 	AnimationEntry__ctor_m90069274C1557D02C5922A0A14DF0EC5CC3C2FF4,
 };
-static const int32_t s_InvokerIndices[87] = 
+static const int32_t s_InvokerIndices[93] = 
 {
 	4434,
 	4434,
@@ -272,6 +284,12 @@ static const int32_t s_InvokerIndices[87] =
 	4434,
 	4434,
 	4434,
+	3138,
+	4434,
+	4434,
+	4434,
+	4434,
+	4434,
 	4434,
 	4434,
 	4434,
@@ -283,7 +301,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	87,
+	93,
 	s_methodPointers,
 	0,
 	NULL,
