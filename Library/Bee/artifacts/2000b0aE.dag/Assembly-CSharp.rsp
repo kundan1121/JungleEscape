@@ -354,6 +354,7 @@
 "Assets/Kid_Scripts/Player_Inventory.cs"
 "Assets/Quirky Series Ultimate/_Scripts/QuirkySeriesDemo.cs"
 "Assets/Quirky Series Ultimate/_Scripts/RotateOnScroll.cs"
+"Assets/Scripts/Mainmenu.cs"
 -langversion:9.0
 
 /deterministic
