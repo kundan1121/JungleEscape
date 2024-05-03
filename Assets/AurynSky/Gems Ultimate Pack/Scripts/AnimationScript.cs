@@ -25,6 +25,8 @@ public class AnimationScript : MonoBehaviour {
     public float scaleRate;
     private float scaleTimer;
 
+    private bool canAnimate = true;
+
 	// Use this for initialization
 	void Start () {
 	
@@ -35,7 +37,7 @@ public class AnimationScript : MonoBehaviour {
 
        
         
-        if(isAnimated)
+        if(isAnimated && canAnimate)
         {
             if(isRotating)
             {
@@ -85,4 +87,10 @@ public class AnimationScript : MonoBehaviour {
             }
         }
 	}
+
+    public void ToggleAnimation(bool isPaused)
+    {
+        isAnimated = !isPaused;
+        Debug.Log("Game is paused" + isPaused);
+    }
 }
